@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT GOOGLE--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--FIM FONT GOOGLE--> 
+     <!--BOOTSTRAP--> 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTRAP/ICONS--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <title> Marcelo Math Portflofio </title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="">
+                    <img src="image_/Logo1.png" alt=" Logo de Marcelo Math">
+                </a>
+            </div><!--logo--> 
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#skills"> My skills </a></li>
+                    <li><a href="#projects"> Projects </a></li>
+                    <li><a href="#about"> About me </a></li>
+                </ul>
+            </nav>
+
+
+            <div class="btn-contact">
+                <a href="#">
+                    <button> Contact </button>
+                </a>
+            </div> <!--btn-contact-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home"> Home </a></li>
+                        <li><a href="#skills"> My skills </a></li>
+                        <li><a href="#projects"> Projects </a></li>
+                        <li><a href="#about"> About me </a></li>
+                        <li><a href="#contact"> Contact </a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu">
+
+            </div>
+
+        </div> <!--interface-->  
+    </header>
+
+    <main>
+        <section id="home" class="topo-do-site">
+            <div class="interface">
+                <div class="flex"><!---->
+                    <div class="txt-topo-site">
+                        <h1> WELCOME TO MY PORTFOLIO<span>.</span> </h1>
+                        <p> Welcome to my portfolio. Here you can find everything about my career as a professional, my projects, my skills and you can get in touch with me. Let's do it!
+                        </p>
+                        <div class="btn-contact">
+                            <a href="#">
+                                <button> Get in touch </button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site--> 
+                
+                    <div class="img-topo-site">
+                          <img src="image_/MarceloMath.png" alt="Imagem de Marcelo Math">
+                    </div><!--img-topo-site--> 
+                </div>
+            </div><!--interface-->  
+        </section><!--topo-do-site-->  
+
+        <section id="skills" class="especialidades">
+            <div class="interface">
+                <h2 class="titulo"> MY <span> SKILLS.</span> </h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Desk App</h3>
+                        <p>I am dev Desk and I use the technology like: Python, C#, JavaScript and others.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-robot"></i>
+                        <h3>Bot Dev</h3>
+                        <p>I am dev Desk and I use the technology like: Python, C#, JavaScript and others.<p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-phone"></i>
+                        <h3>Mobile App</h3>
+                        <p>I am dev Desk and I use the technology like: Python, C#, JavaScript and others.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section id="about" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="image_/FotoMath.png" alt="">
+                    </div><!--img-sobre-->
+                        
+                    <div class="txt-sobre">
+                        <h2>VERY PLEASURE, <span>I'M MARCELO MATH</span>
+                        </h2>
+                        <p>Graduated in Computer/Software Engineering at UNIVERSIDADE METODISTA DE ANGOLA, I have mastered Software Engineering, I am a Full Stack programmer, interested in Computer Graphics, Artificial Intelligence and Algorithms.</p>
+                        <p>Very good at Mathematics, Physics and Computational Logic. Intelligent and Visionary Young Man. Good ability to solve complex problems.</p>
+                        <div class="btn-social">
+                            <a href="#"> <button><i class="bi bi-instagram"></i></button> </a>
+                            <a href="#"> <button><i class="bi bi-youtube"></i></button> </a>
+                            <a href="#"> <button><i class="bi bi-linkedin"></i></button> </a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section> <!--sobre-->
+
+        <section id="projects" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo"> MY <span>PORTFOLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(image_/Foto1.png);">
+                        <div class="overlay">PROJECT 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(image_/Foto1.png);">
+                        <div class="overlay">PROJECT 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(image_/Foto1.png);">
+                        <div class="overlay">PROJECT 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="contact" class="formulario">
+            <div class="inetrface">
+                <h2 class="titulo">
+                    TALK <span>TO ME</span>
+                </h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Your full name:" required>
+                    <input type="text" name="" id="" placeholder="Your Email:" required>
+                    <input type="text" name="" id="" placeholder="Your Cell Phone:">
+                    <textarea name="" id="" placeholder="Your message" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="SEND"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo">
+                        <img src="image_/Logo1.png" alt="Logo">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"> <button><i class="bi bi-instagram"></i></button> </a>
+                        <a href="#"> <button><i class="bi bi-youtube"></i></button> </a>
+                        <a href="#"> <button><i class="bi bi-linkedin"></i></button> </a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:marcelomath@gmail.com">marcelomath@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div>
+    </footer><!--interface-->
+    
+    <!-- Botão Voltar ao Topo -->
+    <button id="btn-topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+</body>
+</html>
